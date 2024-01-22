@@ -25,4 +25,5 @@ jobs:
       - uses: taiki-e/upload-rust-binary-action@v1
         with:
           bin: pf
+          include: install.sh
           token: ${{ secrets.GITHUB_TOKEN }}
